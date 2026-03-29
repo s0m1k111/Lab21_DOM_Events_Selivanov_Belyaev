@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 40px;
+}
+
+.timer-box {
+  max-width: 300px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.start,
+.stop,
+.sbros {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start {
+  background: #4caf50;
+  color: white;
+}
+.stop {
+  background: #f44336;
+  color: white;
+}
+
+.sbros {
+  background: #2196f3;
+  color: white;
+}
+
+.start:hover {
+  background: #449d48;
+}
+.stop:hover {
+  background: #d7372f;
+}
+.sbros:hover {
+  background: #1b7ccc;
+}
